@@ -92,8 +92,8 @@ pip install -r requirements.txt
 
 ## Dados de entrada
 
-O CNPJ do orgao monitorado esta configurado no notebook `01_ingest.ipynb`. Para monitorar outro orgao, altere a variavel `CNPJ_MME`.
+O CNPJ do órgão monitorado está configurado no notebook `01_ingest.ipynb`. Para monitorar outro órgão, altere a variavel `CNPJ_MME`.
 
-## Licenca
+## Licença
 
-Dados publicos do governo federal brasileiro - uso livre conforme Lei de Acesso a Informacao (Lei 12.527/2011).
+Dados públicos do governo federal brasileiro - uso livre conforme Lei de Acesso a Informação (Lei 12.527/2011).
