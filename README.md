@@ -29,9 +29,9 @@ data/
 
 | Fonte | Conteudo | Endpoint |
 |---|---|---|
-| PNCP | Contratacoes e contratos do MME | https://pncp.gov.br/api/consulta/v1/ |
-| CEIS/CNEP | Empresas sancionadas | Portal da Transparencia |
-| BCB | Indices economicos IPCA e IGPM | python-bcb |
+| PNCP | Contratações e contratos do MME | https://pncp.gov.br/api/consulta/v1/ |
+| CEIS/CNEP | Empresas sancionadas | Portal da Transparência |
+| BCB | Índices econômicos IPCA e IGPM | python-bcb |
 
 ## Estrutura do repositorio
 
@@ -49,7 +49,7 @@ supply_chain/
   requirements.txt      <- dependencias Python
 ```
 
-## Instalacao
+## Instalação
 
 ```bash
 # Clone o repositorio
@@ -66,12 +66,12 @@ pip install -r requirements.txt
 
 ## Como executar
 
-1. Execute o notebook de ingestao para buscar os dados da API:
+1. Execute o notebook de ingestão para buscar os dados da API:
    ```
    notebooks/01_ingest.ipynb
    ```
 
-2. Execute o notebook de transformacao para gerar o banco DuckDB:
+2. Execute o notebook de transformação para gerar o banco DuckDB:
    ```
    notebooks/02_transform.ipynb
    ```
