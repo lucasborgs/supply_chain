@@ -72,7 +72,7 @@ def format_human_br(num):
 # ============================================
 # SIDEBAR - FILTROS
 # ============================================
-st.sidebar.image("/Users/lucasborges/Desktop/supply_chain/govbr.webp", width=200)
+st.sidebar.image("assets/govbr.webp", width=200)
 st.sidebar.title("Filtros")
 
 # Filtro de Categoria
